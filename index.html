@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <!-- head section -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ross Keene</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/main-css/main.css" />
+  </head>
+  <body>
+    
+    <!-- NAVBAR SECTION -->
+    <header class="transparent-navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Ross Keene</a>
+          <button
+            class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="home-link"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="about-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="projects-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contact-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT SECTION -->
+    <main>
+      <div id="content"><!--The content of the current page will be loaded here from navbar.js, landing page will show first -->
+
+        <div class="full-screen-video-container">
+          <video autoplay loop muted>
+            <source src="/videos/background_video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </main>
+
+    <!-- SCRIPTS SECTIONS -->
+    <script src="/navbar-js/navbar.js"></script>
+
+    <!-- Bootstrap link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
