@@ -50,7 +50,7 @@ hr {
     background-image: linear-gradient(to right, rgba(251, 248, 248, 0), rgb(249, 247, 247), rgba(254, 251, 251, 0));
   }
 
-  .btn {
+.btn {
    
     height: 150px;
     width: 250px;
@@ -65,6 +65,7 @@ hr {
 
 
 
+
 .side {
     position: absolute;
     backface-visibility: hidden;
@@ -73,7 +74,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4em;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -85,7 +86,7 @@ hr {
 .hover-side {
     border-radius: 1rem;
     background-color: rgb(14, 14, 14);
-    border: 10px solid rgb(247, 245, 245);
+    border: 5px solid rgb(247, 245, 245);
     color: rgb(250, 251, 251);
     transform: rotateX(90deg) translateZ(75px);
 }
