@@ -6,77 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/contact/index.css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Contact Page</title>
 </head>
 <body>
-<div class="main-contact-div">
- 
-
-    <div className="form-main-div">
-          <div className="container">
-            <h1 className="h1Contact"><ContactMailTwoToneIcon color="action" fontSize='large' /></h1>
-            <form
-              ref="formRef" 
-              target="_blank"
-              action="https://formsubmit.co/rosskeene196@gmail.com"
-              method="POST"
-              onSubmit="handleSubmit">
-              <div >
-                <div className="col">
-                  <input
-                    margin="normal"
-                    id="outlined-basic"
-                    variant="outlined"
-                    type="text"
-                    name="name"
-                    className="form-control"
-                   placeholder="Full Name"
-                    required
-                  />
-                </div>
-  
-                <div className="col">
-                  <input
-                    margin="normal"
-                    fullWidth={true}
-                    id="outlined-basic"
-                    variant="outlined"
-                    type="email"
-                    name="email"
-                    className="form-control"
-                    placeholder="Email Address"
-                    required
-                  />
-                </div>
-  
-                <div className="form-group">
-                  <input
-                    margin="normal"
-                    fullWidth={true}
-                    id="outlined-multiline-static"
-                    placeholder="Your Message"
-                    multiline
-                    rows={10}
-                    className="form-control"
-                    name="message"
-                    required
-                 />
-                </div>
-                <button 
-                  fullWidth={true}
-                  variant="outlined"
-                  type="submit"
-                  className="btn btn-lg btn-dark btn-block"
-                >
-                  Submit
-            </button>
+  <div class="form-area">
+      <div class="container">
+          <div class="row single-form g-0">
+              <div class="col-sm-12 col-lg-6">
+                  <div class="left">
+                  </div>
               </div>
-            </form>
+              <div class="col-sm-12 col-lg-6">
+                  <div class="right">
+                     <form
+                     ref="formRef" 
+                     target="_blank"
+                     action="https://formsubmit.co/rosskeene196@gmail.com"
+                     method="POST"
+                     onSubmit="handleSubmit">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Your Name</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Message</label>
+                            <textarea type="password" class="form-control" id="exampleInputPassword1" required></textarea>
+                        </div>
+                        <button 
+                        fullWidth={true}
+                        variant="outlined"
+                        type="submit"
+                        className="btn btn-lg btn-dark btn-block"
+                      >
+                        Submit
+                  </button>                        
+                  </form>
+                  </div>
+              </div>
           </div>
-        
       </div>
-
-
-</div>  
+  </div>
 </body>
 </html>
