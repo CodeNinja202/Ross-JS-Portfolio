@@ -30,7 +30,7 @@ body {
 }
 .single-form{
 	border-radius: 1rem;
-    background: #25252545;
+    background: #25252598;
 }
 .right {
 	padding: 70px 100px;
@@ -48,7 +48,7 @@ body {
 }
 .right button {
 	border: none;
-	border-radius: 0;
+	border-radius: 1rem;
 	background: #252525;
 	width: 180px;
 	color: #fff;
@@ -59,10 +59,17 @@ body {
 	cursor: pointer;
 }
 .right button:hover{
+	border: 2px solid #fff;
     background-color: #252525;
 }
 
-
+.form-label{
+	color: #fff;
+}
+h2{
+	color: #fff;
+	text-align: center;
+}
 /*responsive*/
 
 @media (min-width:768px) and (max-width:991px){
