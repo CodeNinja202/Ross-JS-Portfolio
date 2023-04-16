@@ -90,3 +90,13 @@ hr {
     color: rgb(250, 251, 251);
     transform: rotateX(90deg) translateZ(75px);
 }
+
+@media (max-width: 800px) {
+.btn{
+    height: 100px;
+    width: 40%;
+    font-size: 9px;
+}
+
+
+}
