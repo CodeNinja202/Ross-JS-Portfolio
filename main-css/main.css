@@ -11,7 +11,7 @@ padding: 0;
 /* Navbar sections */
 .transparent-navbar {
     background-color: transparent;
-    background-color: blue;
+    background-color: rgb(3, 3, 3);
   }
 
 .navbar-toggler {
