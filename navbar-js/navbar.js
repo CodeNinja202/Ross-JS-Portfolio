@@ -17,9 +17,13 @@ function loadPage(url) {
   xhr.send();
 }
 
+// Load the home page when the website is first loaded
+loadPage("/home/home.html");
+
 // Refreshed the page
 homeLink.addEventListener("click", function (event) {
-  location.reload();
+  event.preventDefault();
+  loadPage("/home/home.html");
 });
 
 // Event listeners to the navigation links that load the content of each page
