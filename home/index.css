@@ -6,8 +6,9 @@ body {
     background-color: black;
 }
 video {
+
     display: block;
-    margin: 5px auto;
+    margin: 5px;
     height: auto;
     width: 85%;
     border-radius: .5rem;
