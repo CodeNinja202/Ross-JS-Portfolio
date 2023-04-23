@@ -11,14 +11,7 @@ body {
 .row.single-form {
 	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
 }
-.left {
-	background-image: url('/images/contact-form.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	/* background: rgb(17, 17, 17); */
-	padding: 200px 98px;
-}
+
 .left h2 {
 	font-family: poppins;
 	color: #fff;
