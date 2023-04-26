@@ -1,9 +1,14 @@
 body {
-
-    background-color: black;
+  background-image: url('../images/about-me-main-div.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
 }
 
 .card{
+
+
     color: rgba(255, 255, 255, 0.804);
     border-color: rgba(240, 248, 255, 0.483);
     background-position: center;
@@ -11,3 +16,17 @@ body {
     background-size: cover;
     background-color: black;
 }
+  
+  
+
+  .card-body {
+    position: relative;
+    height: 350px;
+  }
+  
+  .card-body btn-group {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
