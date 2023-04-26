@@ -1,6 +1,9 @@
 body {
-
-    background-color: black;
+  background-image: url('../images/about-me-main-div.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
 }
 
 .card{
